@@ -8,7 +8,7 @@
 :root{
     --p: rgb(63, 73, 225);
     --pe: rgb(26, 32, 115);
-    --s: rgb(255, 81, 81);
+    --s: rgb(146, 18, 18);
 }
 
 .telaini{
@@ -40,11 +40,37 @@
     position: absolute;
     top: 0;
     box-shadow: black 0px 10px 50px;
+    display: flex;
 }
 
 .navbar img{
     width: 15%;
     height: 90%;
+}
+
+.alright{
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    padding: 20px;
+}
+
+.alright a{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: var(--s);
+    border-radius: 10px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.alright a:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 @font-face{
