@@ -1,13 +1,52 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'texto'
+    
+}
+
+:root{
+    --p: rgb(63, 73, 225);
+    --pe: rgb(26, 32, 115);
+    --s: rgb(255, 81, 81);
 }
 
 .telaini{
     width: 100vw;
     height: 100vh;
+    background-color: var(--p);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.telaini h1{
+    font-family: 'titulo';
+}
+
+.fade{
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(var(--p),white);
+}
+
+.navbar{
+    height: 90px;
+    width: 100vw;
+    background-color: var(--pe);
+    position: absolute;
+    top: 0;
+    box-shadow: black 0px 10px 30px;
+}
+
+@font-face{
+    font-family: 'texto';
+    src: url("assets/fonts/texto.ttf");
+}
+
+@font-face{
+    font-family: 'titulo';
+    src: url("assets/fonts/titulo.ttf");
 }
