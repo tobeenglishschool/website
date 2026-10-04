@@ -38,7 +38,12 @@
     background-color: var(--pe);
     position: absolute;
     top: 0;
-    box-shadow: black 0px 10px 30px;
+    box-shadow: black 0px 10px 50px;
+}
+
+.navbar img{
+    width: 15%;
+    height: 90%;
 }
 
 @font-face{
