@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(assets/images/background.webp);
 }
 
 :root{
@@ -47,7 +48,7 @@ body{
 .fade{
     width: 100vw;
     height: 50vh;
-    background-image: linear-gradient(var(--p),white);
+    background-image: linear-gradient(var(--p),transparent);
 }
 
 .navbar{
