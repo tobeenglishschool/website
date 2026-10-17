@@ -4,6 +4,10 @@
     font-family: 'texto';
 }
 
+html{
+    background-color: black;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -75,8 +79,9 @@ body{
     padding: 20px;
 }
 
-.alright a{
+.btn{
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     display: flex;
     text-decoration: none;
@@ -87,7 +92,7 @@ body{
     transition: .3s;
 }
 
-.alright a:hover{
+.btn:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -96,7 +101,7 @@ body{
     padding: 20px;
     text-align: justify;
     width: fit-content;
-    max-width: 50rem;
+    max-width: 55rem;
     background-color: var(--p);
     border-radius: 10px;
     margin-bottom: 10rem;
@@ -136,6 +141,84 @@ body{
 
 .extsec img{
     width: 50%;
+}
+
+.teachers{
+    background-color: var(--s);
+    padding: 15px;
+    padding-right: 20px;
+    width: 20rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.teachers img{
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.subsec{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    max-width: 70rem;
+}
+
+.subsec h1{
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+.subsec p{
+    font-size: 1rem;
+}
+
+#contato{
+    text-align: center;
+}
+
+#contato h1{
+    margin-bottom: 0px;
+}
+
+#contato h2{
+    margin-bottom: 20px;
+}
+
+#contato a{
+    margin-bottom: 10px;
+}
+
+#contato a:hover{
+    transform: scale(1.08);
+}
+
+.ancora{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: var(--s);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.ancora:hover{
+    transform: scale(1.08);
+}
+
+.footer{
+    background-color: black;
+    width: 96.1vw;
+    text-align: center;
+    color: white;
+    padding: 30px
 }
 
 @font-face{
