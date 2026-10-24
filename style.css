@@ -9,8 +9,7 @@ html{
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     background-image: url(assets/images/background.webp);
 }
